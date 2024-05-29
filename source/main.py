@@ -1,4 +1,5 @@
-from .game import Game
+from source.game.game import Game
+
 
 
 def main():
