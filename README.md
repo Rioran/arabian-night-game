@@ -1,6 +1,6 @@
 # arabian-night-game
 
-Do you like BlackJack and writing python tests? Here is a project for ya! It is like a usual BJ but Ace is always 11 points and in most cases Dealer is a preferred winner.
+Do you like BlackJack and writing python tests? Here is a project for ya! It is like a usual BJ but Ace is always 11 points and in most cases Dealer is a preferred winner!
 
 ### run game
 
