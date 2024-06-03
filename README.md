@@ -36,6 +36,12 @@ pip install -r requirements.txt
 pytest -v
 ```
 
+### slowest 3 tests
+
+```bash
+python -m pytest --durations=3 -vv
+```
+
 ### get coverage report
 
 ```bash

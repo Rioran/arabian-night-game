@@ -15,6 +15,14 @@ class Deck:
 
     @staticmethod
     def _generate_deck_cards() -> list[Card]:
+        """Generate a list with 52 cards. Unshuffled.
+
+        >>> deck = Deck._generate_deck_cards()
+        >>> len(deck)
+        52
+        >>> isinstance(Deck._generate_deck_cards()[0], Card)
+        True
+        """
         result: list[Card] = list()
 
         for suit in SUITS:
