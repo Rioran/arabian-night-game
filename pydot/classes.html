@@ -1,0 +1,36 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      <div class="mermaid">
+    
+        classDiagram
+          class Card {
+            name
+            rank
+            suit
+            value
+          }
+          class Deck {
+            cards : list[Card]
+            get_card() Card
+          }
+          class Game {
+            run()
+          }
+          class Hand {
+            cards : list[Card]
+            owner : str
+            value : int
+            receive(card: Card)
+            show_all_cards()
+            show_cards_partially()
+          }
+          class OutOfCardsError {
+          }
+          Deck --* Game : _deck
+          Hand --* Game : _player_hand
+          Hand --* Game : _dealer_hand
+  
+       </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+      <div class="mermaid">
+    
+        classDiagram
+          class source {
+          }
+          class game {
+          }
+          class card {
+          }
+          class constants {
+          }
+          class deck {
+          }
+          class game {
+          }
+          class hand {
+          }
+          class utilities {
+          }
+          class main {
+          }
+          game --> game
+          card --> constants
+          deck --> card
+          deck --> constants
+          game --> deck
+          game --> hand
+          game --> utilities
+          hand --> card
+          utilities --> constants
+          main --> game
+  
+       </div>
+  </body>
+</html>
